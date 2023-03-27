@@ -10,3 +10,43 @@
     border: 2px solid black;
     margin:10px;
 }
+.basicppt{
+    display: block;
+    /* display: inline-block;
+    display: inline;
+    display: none; */
+}
+.basicppt{
+    box-sizing: content-box; /*default*/
+    /* box-sizing: border-box; */
+    padding: 50px;
+    /* padding: 50px 100px; */
+    /* padding: 20px 30px 40px 50px; */
+    height: 500px;
+}
+.basicppt{
+    color: red;
+    /* color: #000;
+    color: rgb(255, 255, 255); */
+}
+/* .basicppt{
+    background-image: url(./assets/intro.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    background-color:green;
+    background: green url(./assets/intro.jpg) no-repeat ;
+} */
+/* .basicppt{
+    border: 5px solid yellow;
+    border-color: yellow;
+    border-top: 5px solid yellow;
+    border-bottom: 5px solid yellow;
+    border-right: 5px solid yellow;
+    border-left: 5px solid yellow;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+} */
