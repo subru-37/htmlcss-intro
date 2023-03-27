@@ -82,3 +82,22 @@ html{
 .basicsize{
     font-size: 2rem;
 } */
+
+.flex-parent{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height:100vh;
+    min-width:100vw;
+    background-color: black;
+}
+.flex-parent .flex-child{
+    height: 100px;
+    width:100px;
+    margin: 20px;
+    /* padding: 50px; */
+    background-color: green;
+
+}
