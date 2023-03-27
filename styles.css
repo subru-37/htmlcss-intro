@@ -9,7 +9,14 @@
    justify-content: center;
 }
 
+/* Box  */ .box-model {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  background-color: coral;
 
+} /**/
 
 /*Cascade & Specificity 
 
@@ -32,12 +39,13 @@ p strong {
 
 */
 
-/* Class selectors Eg */
+/* Class selectors Eg 
 .class-selector {
-   text-align: center;
+   padding-left: 30px;
    font-style: italic;
+   color :chocolate;
 }
-
+*/
 /* Grouping Selectors Eg 1
 p strong {
    padding: 30px;
@@ -64,19 +72,22 @@ p {
 } */
 
 
-/* ID Selector Eg 
+ /*ID Selector Eg
 #id-selector {
    font-weight: 700;
    padding: 20px;
    color : #DC5F00;
-} */
-
+} 
+ */
 
 
 .html-tut {
-   padding-bottom: 40vh;
+   margin-bottom: 40vh;
 
-}
-.css-tut {
-   padding-bottom: 40vh;
+} 
+.box-model {
+   margin-bottom: 40vh;
+} 
+.selectors { 
+   margin-top : 40vh;
 }
