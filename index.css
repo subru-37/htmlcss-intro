@@ -86,7 +86,7 @@ html{
 .flex-parent{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
     min-height:100vh;
@@ -96,8 +96,12 @@ html{
 .flex-parent .flex-child{
     height: 100px;
     width:100px;
-    margin: 20px;
     /* padding: 50px; */
+    margin: 50px;
     background-color: green;
-
+}
+@media only screen and (max-width: 350px){
+    .flex-parent{
+        flex-direction: column;
+    }
 }
