@@ -50,3 +50,35 @@
     border-bottom-right-radius: 20px;
     border-radius: 20px;
 } */
+/* web safe fonts
+The following list are the best web safe fonts for HTML and CSS:
+
+Arial (sans-serif)
+Verdana (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive)*/
+.basicppt{
+    font-family:Arial, Helvetica, sans-serif;
+    font-family: monospace;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 200;
+    /* font-variant:small-caps; */
+}
+/* .basicparent{
+    font-size: 20px;
+}
+.basicsize{
+    font-size: 2em; 
+}
+html{
+    font-size: 30px;
+}
+.basicsize{
+    font-size: 2rem;
+} */
