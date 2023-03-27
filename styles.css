@@ -1,0 +1,82 @@
+
+.my-css-rule {
+   background: red ;
+   color: beige;
+   font-size: 1.2rem; 
+   width: 150px;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+}
+
+
+
+/*Cascade & Specificity 
+
+strong {
+   padding: 30px;
+   color: blueviolet;
+   font-family : cursive;
+}
+
+p strong {
+   padding: 30px;
+   color: limegreen;
+   font-family : cursive;
+}
+.css-tut p strong {
+   padding: 30px;
+   color:coral 
+   font-family : cursive;
+} 
+
+*/
+
+/* Class selectors Eg */
+.class-selector {
+   text-align: center;
+   font-style: italic;
+}
+
+/* Grouping Selectors Eg 1
+p strong {
+   padding: 30px;
+   color: blueviolet;
+   font-family : cursive;
+}*/
+
+
+/* Universal Selector Eg 1 
+* {
+   background-color : #4E6E81; 
+} */
+
+/* Universal Selector Eg 2 
+
+.selectors * {
+   background : aqua; 
+}
+*/
+
+/* Type Selector Eg  
+p {
+   font-weight: 800;
+} */
+
+
+/* ID Selector Eg 
+#id-selector {
+   font-weight: 700;
+   padding: 20px;
+   color : #DC5F00;
+} */
+
+
+
+.html-tut {
+   padding-bottom: 40vh;
+
+}
+.css-tut {
+   padding-bottom: 40vh;
+}
