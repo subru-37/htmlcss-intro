@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    margin :0px;
+}
+
+.blog {
+    padding: 10px;
+}
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 10px;
+    color: coral;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3 {
+    padding-left: 40px;
+    font-size: 2rem;
+}
+h4{
+    padding: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.post1, .post2 {
+    background-color:grey;
+    padding : 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Mouse ulla pseudoclasses */
+
+.addpostbutton {
+    margin-left: 20px;
+    background-color:cornflowerblue;
+    width: 6rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+.addpostbutton:hover {
+    background-color: deepskyblue;
+}
+.submitpostbutton {
+    margin-left: 35px;
+    background-color:cornflowerblue;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+.submitpostbutton:active {
+    background-color: red;
+}
+
+.pseudo  {
+    margin: 20px;
+    font-size: 1.2rem;
+    padding-left:2rem;
+}
+
+p:first-child {
+    color: coral;
+}
+
+
+/*Some others
+a:link {
+    color: #FF0000;
+  }
+  
+  visited link 
+  a:visited {
+    color: #00FF00;
+  }*/

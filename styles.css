@@ -9,7 +9,8 @@
    justify-content: center;
 }
 
-/* Box  */ .box-model {
+/* Box  */ 
+.box-model {
   width: 300px;
   border: 15px solid green;
   padding: 50px;
