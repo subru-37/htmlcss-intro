@@ -19,26 +19,27 @@
 .basicppt{
     box-sizing: content-box; /*default*/
     /* box-sizing: border-box; */
-    padding: 50px;
+    /* padding: 50px; */
     /* padding: 50px 100px; */
-    /* padding: 20px 30px 40px 50px; */
+    padding: 20px 30px 40px 50px;
+    /* padding-left: 50px; */
     height: 500px;
 }
 .basicppt{
     color: red;
-    /* color: #000;
-    color: rgb(255, 255, 255); */
+    /* color: #46f31f; */
+    /* color: rgb(190, 70, 70);  */
+}
+.basicppt{
+    /* background-image: url(./assets/intro.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: contain;
+    background-color:rgb(108, 165, 108);  */
+    background: green url(./assets/intro.jpg) no-repeat;
 }
 /* .basicppt{
-    background-image: url(./assets/intro.jpg); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: contain;
-    background-color:green;
-    background: green url(./assets/intro.jpg) no-repeat ;
-} */
-/* .basicppt{
-    border: 5px solid yellow;
+    border: 5px dashed  yellow;
     border-color: yellow;
     border-top: 5px solid yellow;
     border-bottom: 5px solid yellow;
@@ -85,10 +86,10 @@ html{
 
 .flex-parent{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
+    align-items: flex-start;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap;  */
     min-height:100vh;
     min-width:100vw;
     background-color: black;

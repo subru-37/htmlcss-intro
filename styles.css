@@ -1,4 +1,12 @@
 
+.h:hover {
+   color: red;
+}
+.h:active {
+   color :blueviolet;   
+}
+
+
 .my-css-rule {
    background: red ;
    color: beige;
@@ -19,24 +27,39 @@
 
 } /**/
 
-/*Cascade & Specificity 
+/*Cascade & Specificity */
+p {
+   color : red;}
+.css-tut{
+   color: blue;
+}   
+.selectors {
+   color: blue;
+}
+div .selectors{
+   color: green;
+}
+#id-selector {
+   color: yellow;
+}
+   /* value is 1
 
 strong {
    padding: 30px;
    color: blueviolet;
    font-family : cursive;
 }
-
-p strong {
+*/
+/* strong {
    padding: 30px;
    color: limegreen;
    font-family : cursive;
-}
-.css-tut p strong {
+} */
+/* .css-tut p strong {
    padding: 30px;
-   color:coral 
+   color:coral ;
    font-family : cursive;
-} 
+}  */
 
 */
 
