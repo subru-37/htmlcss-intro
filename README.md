@@ -1,7 +1,7 @@
 # **<div align="center">SiteCraft - Web</div>**
  
 
-## <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 
 
 #### Repo made as a part of the sessions conducted by DSC MEC on Web Development (HTML,CSS) by [Mrinalini Nair Ani](https://github.com/hacksh4w) and [Subramani E](https://github.com/subru-37).
